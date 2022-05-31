@@ -1,0 +1,78 @@
+// App.js
+
+
+// import "./App.css"
+
+// import React from "react"
+// import Component from "./Component"
+
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props)
+//     this.state = {
+//       name: "",
+//       description: true,
+//     }
+//   }
+
+//   changeName = (req) => {
+//     let myName = ""
+//     // console.log("changeName")
+//     if (req === "true") {
+//       // console.log("true")
+//       console.log("true Ula")
+//       myName = "Ula"
+//     } else {
+//       myName = "Michał"
+//     }
+//     this.setState({
+//       name: myName,
+//     })
+//   }
+
+//   changeDescription = () => {
+//     console.log("change desc")
+//     this.setState({
+//       description: !this.state.description,
+//     })
+//   }
+
+//   render() {
+//     return (
+//       <div className="App">
+//         <header className="App-header">
+//           <p>TODOS</p>
+//           <h1>React {this.state.name}</h1>
+//           <Component
+//             stateName={this.changeName}
+//             desc={this.state.description}
+//           />
+//           <button onClick={this.changeDescription}>Change description</button>
+//         </header>
+//       </div>
+//     )
+//   }
+// }
+
+// export default App
+
+
+
+
+// Component
+
+// const Component = (props) => {
+//   return (
+//     <div>
+//       <button onClick={() => props.stateName("true")}>
+//         change Name on Ula
+//       </button>
+//       <button onClick={() => props.stateName("false ")}>
+//         change Name on Michał
+//       </button>
+//       <div>TO jest mój opis i on jest dla {props.desc ? "Michał" : "Ula"}</div>
+//     </div>
+//   )
+// }
+
+// export default Component
